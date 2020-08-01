@@ -1,3 +1,4 @@
 Week 3 notebooks and datasets were upload here.
 This week we worked with Random Forest Classifier.(Titanic)
 We also did a lot of data processing job. We tried over-sampling and under-sampling which showed very good results on unbalanced data.(Insurance)
+CatBoost and XGBoost was used to classify heart disease dataset. StandardScaling + SMOTETomek+GridSearchCV helped to achieve accuracy of 90% f1-score.(Heart)
