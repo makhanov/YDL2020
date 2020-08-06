@@ -8,7 +8,6 @@ Here is the NN model that we used to train and test:
 
 model = Sequential()
 model.add(Dense(16, activation = 'relu', input_shape=(9,)))
-#model.add(Dropout(0.2))
 model.add(Dense(8, activation = 'relu'))
 model.add(Dense(1, activation='sigmoid'))
 
